@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Lost & Found</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body>
+    <nav class="menu-bar">
+        <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="lost/search_lost.php">Lost Items</a></li>
+            <li><a href="found/search_found.php">Found Items</a></li>
+            <li><a href="claims/claims_report.php">Claims</a></li>
+            <li><a href="logout.php" class="logout">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Welcome, to Lost & Found</h2>
+        <div class="dashboard-options">
+            <div class="option">
+                <h3>Lost Items</h3>
+                <a href="lost/report_lost.php" class="btn">Report Lost Item</a>
+                <a href="lost/search_lost.php" class="btn">Search Lost Items</a>
+                <a href="lost/view_lost.php" class="btn">View My Lost Items</a>
+            </div>
+            <div class="option">
+                <h3>Found Items</h3>
+                <a href="found/report_found.php" class="btn">Report Found Item</a>
+                <a href="found/search_found.php" class="btn">Search Found Items</a>
+                <a href="found/view_found.php" class="btn">View My Found Items</a>
+            </div>
+            <div class="option">
+                <h3>Claims</h3>
+                <a href="claims/claims_report.php" class="btn">View My Claims</a>
+            </div>
+        </div>
+        <a href="logout.php" class="logout">Logout</a>
+    </div>
+</body>
+</html>
